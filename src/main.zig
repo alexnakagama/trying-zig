@@ -14,6 +14,6 @@ pub fn main(init: std.process.Init) !void {
     const executable_path = args[0];
     const path = args[1];
 
-    std.debug.print("i dont know what: {s}\n", .{executable_path});
+    std.debug.print("Executable path: {s}\n", .{executable_path});
     std.debug.print("Path: {s}\n", .{path});
 }
