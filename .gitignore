@@ -1,0 +1,19 @@
+# Zig build artifacts
+/zig-out/
+/.zig-cache/
+/zig-cache/
+
+# Local environment files
+.env
+.env.*
+
+# Editor and IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
